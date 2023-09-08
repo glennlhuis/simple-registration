@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-container {
+  position: absolute;
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.registration-container h2 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.registration-container input {
+  width: 70%;
+  margin-bottom: 30px;
+  padding: 5px;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  border-bottom: 2px solid rgba(3, 3, 3, 0.788);
+}
+.registration-container input::placeholder {
+  color: rgba(109, 109, 109, 0.623);
+  font-size: 14px;
+}
+
+.background {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.registration-container .submit-btn {
+  width: 50%;
+  height: 40px;
+  margin-bottom: 15px;
+  background-color: crimson;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: rgb(185, 21, 54);
+}
+
+.submit-btn:active {
+  background-color: rgb(255, 28, 73);
+  font-size: 22px;
+}
+
+.registration-container .login {
+  display: flex;
+  justify-content: center;
+}
+
+.registration-container .login a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.registration-container .login a:hover {
+  text-decoration: underline;
+}
+.registration-container .login a:active {
+  color: white;
+}
